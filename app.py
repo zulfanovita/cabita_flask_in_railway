@@ -39,6 +39,10 @@ def predict_kadar_air():
 
     return jsonify({"predicted_kadar_air": f"{kadar_air}%"})
 
+@app.route("/", methods=["GET"])
+def home():
+    return "Cabita API is running!"
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)

@@ -6,11 +6,11 @@
 # Pillow==9.3.0
 # gunicorn
 
-flask
-numpy==1.26.4
+# flask
+# numpy==1.26.4
 # tensorflow==2.19.0
-scikit-learn==1.6.1
-joblib
-Pillow==9.3.0
-gunicorn
+# scikit-learn==1.6.1
+# joblib
+# Pillow==9.3.0
+# gunicorn
 werkzeug==2.2.3
